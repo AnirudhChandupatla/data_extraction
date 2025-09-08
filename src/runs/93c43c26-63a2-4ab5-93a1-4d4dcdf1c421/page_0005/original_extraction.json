@@ -1,0 +1,305 @@
+{
+  "Form_fields": {
+    "Company Name": "Velorynt Labs",
+    "Company Code": "37546",
+    "Period": "12/17/2024 to 12/26/2024",
+    "Employee Name": "Jocelyn Taylor",
+    "Address line 1": "1006 Shery St",
+    "City": "Shaontown",
+    "State": "WY",
+    "Zip": "93506-7144",
+    "Emp Id": "5532",
+    "SSN": "609-85-2596",
+    "DOB (only date)": "12/28/1961",
+    "Gender": "M",
+    "Marital Status": "M",
+    "Status": "A",
+    "Position": "",
+    "Title": "",
+    "Pay Group": "",
+    "Job Code": "",
+    "Emp Type": "RFT",
+    "Statutory": "0.00",
+    "Seasonal": "0.00",
+    "Domestic Emp": "No",
+    "Probation": "0.00",
+    "Home #": "",
+    "Work #": "",
+    "Ext.": "",
+    "Email": "",
+    "Mail Stop": "",
+    "Hire Date": "01/04/2016",
+    "Rehire Date": "",
+    "Term Date": "",
+    "Term Reason": "",
+    "Adj Sen Date": "",
+    "Pension": "No",
+    "Visa Type": "",
+    "Exp": "",
+    "Citizen": "",
+    "I9 Reverify": "",
+    "I9 Verified": "Yes",
+    "Deceased": "No",
+    "Tax Form": "W2",
+    "WCC": "8810",
+    "EEOC": "",
+    "Supervisor ID": "",
+    "Name (supervisor name)": "",
+    "Def Comp": "No",
+    "Union": "",
+    "Union Date": "",
+    "Collect Dues": "No",
+    "Paid Init. Fees": "No",
+    "Veteran": "",
+    "Legal Rep": "No",
+    "Nickname": "",
+    "surname": "",
+    "Prior Last": "",
+    "Disability": "",
+    "Smoker": "No",
+    "AutoPay": "",
+    "Pay Frequency": "B",
+    "OT Exempt": "No",
+    "Default Hours": "0.00",
+    "Locations": "606",
+    "Positions": "700"
+  },
+  "Tables": {
+    "Rate/Salary Information": [
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "20.95",
+        "Salary": "",
+        "Effective Dates": "01/03/2024 to 12/31/2100"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "20.30",
+        "Salary": "",
+        "Effective Dates": "01/03/2023 to 01/02/2024"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "19.75",
+        "Salary": "",
+        "Effective Dates": "05/08/2022 to 01/02/2023"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "16.75",
+        "Salary": "",
+        "Effective Dates": "01/03/2022 to 05/07/2022"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "16.00",
+        "Salary": "",
+        "Effective Dates": "01/05/2021 to 01/02/2022"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "14.60",
+        "Salary": "",
+        "Effective Dates": "01/04/2020 to 01/04/2021"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "14.05",
+        "Salary": "",
+        "Effective Dates": "01/04/2019 to 01/03/2020"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "13.75",
+        "Salary": "",
+        "Effective Dates": "01/04/2018 to 01/03/2019"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "13.40",
+        "Salary": "",
+        "Effective Dates": "01/04/2017 to 01/03/2018"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "13.00",
+        "Salary": "",
+        "Effective Dates": "04/04/2016 to 01/03/2017"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "12.00",
+        "Salary": "",
+        "Effective Dates": "01/04/2016 to 04/03/2016"
+      }
+    ],
+    "Tax Information (Employee)": [
+      {
+        "Employee Tax (code description)": "MED Medicare",
+        "Status": "",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "01/15/2016 to 12/31/2100",
+        "Default": "Yes"
+      },
+      {
+        "Employee Tax (code description)": "SS OASDI",
+        "Status": "",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "01/15/2016 to 12/31/2100",
+        "Default": "Yes"
+      },
+      {
+        "Employee Tax (code description)": "FITW Federal Income Tax",
+        "Status": "M-1",
+        "Add'l Amount": "20.00",
+        "Effective Dates": "01/04/2016 to 12/31/2100",
+        "Default": "Yes"
+      },
+      {
+        "Employee Tax (code description)": "MN Minnesota SITW",
+        "Status": "M-1",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "01/04/2016 to 12/31/2100",
+        "Default": "Yes"
+      }
+    ],
+    "Tax Information (Employer)": [
+      {
+        "Employer Tax (code description)": "MED-R Medicare - Employer",
+        "Effective Dates": "01/15/2016 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "SS-R OASDI - Employer",
+        "Effective Dates": "01/15/2016 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "FUTA Fed Unemployment",
+        "Effective Dates": "01/15/2016 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "MNAST Minnesota Federal Loan Assessment",
+        "Effective Dates": "01/15/2016 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "MNDW Workforce Enhancement Fee",
+        "Effective Dates": "01/15/2016 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "MNSUI Minnesota SUI",
+        "Effective Dates": "01/15/2016 to 12/31/2100",
+        "Default": ""
+      }
+    ],
+    "Deduction Information": [
+      {
+        "Code": "401KC",
+        "Deduction": "401K Contribution",
+        "Rate": "6.00",
+        "CalcCode": "%401K",
+        "Frequency": "",
+        "Goal/Paid": "0.00/0.00",
+        "Min/Max/Annual Max": "0.00/0.00/0.00",
+        "Arrears": "0.00",
+        "Agency": "",
+        "Effective Dates": "04/01/2016 to 12/31/2100"
+      },
+      {
+        "Code": "401kUM",
+        "Deduction": "401kUnmatch",
+        "Rate": "14.00",
+        "CalcCode": "%401K",
+        "Frequency": "",
+        "Goal/Paid": "0.00/0.00",
+        "Min/Max/Annual Max": "0.00/0.00/0.00",
+        "Arrears": "0.00",
+        "Agency": "",
+        "Effective Dates": "08/01/2022 to 12/31/2100"
+      },
+      {
+        "Code": "401kUnmatc",
+        "Deduction": "401K Unmatch",
+        "Rate": "12.00",
+        "CalcCode": "%401K",
+        "Frequency": "",
+        "Goal/Paid": "0.00/0.00",
+        "Min/Max/Annual Max": "0.00/0.00/0.00",
+        "Arrears": "0.00",
+        "Agency": "",
+        "Effective Dates": "03/31/2019 to 08/01/2022"
+      },
+      {
+        "Code": "DNTL",
+        "Deduction": "Dental Insurance S125",
+        "Rate": "18.32",
+        "CalcCode": "",
+        "Frequency": "B5",
+        "Goal/Paid": "0.00/0.00",
+        "Min/Max/Annual Max": "0.00/0.00/0.00",
+        "Arrears": "0.00",
+        "Agency": "",
+        "Effective Dates": "09/01/2019 to 12/31/2100"
+      },
+      {
+        "Code": "FH125",
+        "Deduction": "Health Insurance S125",
+        "Rate": "158.14",
+        "CalcCode": "",
+        "Frequency": "B5",
+        "Goal/Paid": "0.00/0.00",
+        "Min/Max/Annual Max": "0.00/0.00/0.00",
+        "Arrears": "0.00",
+        "Agency": "",
+        "Effective Dates": "09/01/2019 to 12/31/2100"
+      }
+    ],
+    "Direct Deposit Information": [
+      {
+        "Sequence No.": "99.00",
+        "Transit No.": "296076262",
+        "Account No.": "2743046665",
+        "Checking?": "Yes",
+        "Account Name": "Jocelyn, Taylor",
+        "Amount Code": "%",
+        "Amount": "100.00",
+        "Prenote Date": "02/12/2016",
+        "Effective Dates": "02/12/2016 to 12/31/2100",
+        "Exclude Special": "No"
+      }
+    ],
+    "Fringe Benefit Information": [
+      {
+        "ECode": "STD",
+        "CalcCode": "",
+        "Rate Code": "",
+        "Rate": "0.00",
+        "Rate Per": "",
+        "Amount": "11.07",
+        "Tabled?": "No",
+        "Units": "0.00",
+        "Frequency": "ML",
+        "Goal/Paid/Goal Bal.": "0.00/0.00/0.00",
+        "Min/Max/Ann. Max": "0.00/0.00/0.00",
+        "Effective Dates": "03/17/2019 to 12/31/2100"
+      }
+    ],
+    "Benefit Accrual Information": [],
+    "Review Information": [],
+    "Emergency Contact Information": []
+  }
+}

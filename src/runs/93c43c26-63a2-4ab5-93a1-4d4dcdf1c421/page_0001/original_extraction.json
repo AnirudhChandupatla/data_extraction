@@ -1,0 +1,228 @@
+{
+  "Form_fields": {
+    "Company Name": "Velorynt Labs",
+    "Company Code": "37546",
+    "Period": "12/17/2024 to 12/26/2024",
+    "Employee Name": "Caroline Jones",
+    "Address line 1": "Stream Apt. 219",
+    "City": "Riverton",
+    "State": "UT",
+    "Zip": "47589",
+    "Emp Id": "4632",
+    "SSN": "088-39-6286",
+    "DOB (only date)": "12/26/2001",
+    "Gender": "M",
+    "Marital Status": "S",
+    "Status": "A",
+    "Position": "",
+    "Title": "",
+    "Pay Group": "",
+    "Job Code": "",
+    "Emp Type": "",
+    "Statutory": "0.00",
+    "Seasonal": "0.00",
+    "Domestic Emp": "No",
+    "Probation": "0.00",
+    "Home #": "509-121-3247",
+    "Work #": "",
+    "Ext.": "",
+    "Email": "",
+    "Mail Stop": "",
+    "Hire Date": "04/19/2023",
+    "Rehire Date": "",
+    "Term Date": "",
+    "Term Reason": "",
+    "Adj Sen Date": "",
+    "Pension": "No",
+    "Visa Type": "",
+    "Exp": "",
+    "Citizen": "",
+    "I9 Reverify": "",
+    "I9 Verified": "No",
+    "Deceased": "No",
+    "Tax Form": "W2",
+    "WCC": "8810",
+    "EEOC": "",
+    "Supervisor ID": "",
+    "Name (supervisor name)": "",
+    "Def Comp": "No",
+    "Union": "",
+    "Union Date": "",
+    "Collect Dues": "No",
+    "Paid Init. Fees": "No",
+    "Veteran": "",
+    "Legal Rep": "No",
+    "Nickname": "",
+    "surname": "",
+    "Prior Last": "",
+    "Disability": "",
+    "Smoker": "No",
+    "AutoPay": "",
+    "Pay Frequency": "B",
+    "OT Exempt": "No",
+    "Default Hours": "0.00",
+    "Locations": "605",
+    "Positions": "700"
+  },
+  "Tables": {
+    "Rate/Salary Information": [
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "19.00",
+        "Salary": "",
+        "Effective Dates": "04/19/2024 to 12/31/2100"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "18.00",
+        "Salary": "",
+        "Effective Dates": "04/28/2023 to 04/18/2024"
+      }
+    ],
+    "Tax Information (Employee)": [
+      {
+        "Employee Tax (code description)": "MED Medicare",
+        "Status": "",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "04/28/2023 to 12/31/2100",
+        "Default": "Yes"
+      },
+      {
+        "Employee Tax (code description)": "SS OASDI",
+        "Status": "",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "04/28/2023 to 12/31/2100",
+        "Default": "Yes"
+      },
+      {
+        "Employee Tax (code description)": "FITW Federal Income Tax",
+        "Status": "S-0",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "04/28/2023 to 12/31/2100",
+        "Default": "Yes"
+      },
+      {
+        "Employee Tax (code description)": "MN Minnesota SITW",
+        "Status": "S-1",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "04/28/2023 to 12/31/2100",
+        "Default": "Yes"
+      }
+    ],
+    "Tax Information (Employer)": [
+      {
+        "Employer Tax (code description)": "MED-R Medicare - Employer",
+        "Effective Dates": "04/28/2023 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "SS-R OASDI - Employer",
+        "Effective Dates": "04/28/2023 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "FUTA Fed Unemployment",
+        "Effective Dates": "04/28/2023 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "MNAST Minnesota Federal Loan Assessment",
+        "Effective Dates": "04/28/2023 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "MNDW Workforce Enhancement Fee",
+        "Effective Dates": "04/28/2023 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "MNSUI Minnesota SUI",
+        "Effective Dates": "04/28/2023 to 12/31/2100",
+        "Default": ""
+      }
+    ],
+    "Deduction Information": [
+      {
+        "Code": "401KC",
+        "Deduction": "401K Contribution",
+        "Rate": "100.00",
+        "CalcCode": "",
+        "Frequency": "",
+        "Goal/Paid": "0.00/0.00",
+        "Min/Max/Annual Max": "0.00/0.00/0.00",
+        "Arrears": "0.00",
+        "Agency": "",
+        "Effective Dates": "07/01/2023 to 12/31/2100"
+      }
+    ],
+    "Direct Deposit Information": [
+      {
+        "Sequence No.": "99.00",
+        "Transit No.": "296075933",
+        "Account No.": "2294694696",
+        "Checking?": "Yes",
+        "Account Name": "Caroline",
+        "Amount Code": "%",
+        "Amount": "100.00",
+        "Prenote Date": "04/28/2023",
+        "Effective Dates": "04/01/2023 to 12/31/2100",
+        "Exclude Special": "No"
+      }
+    ],
+    "Fringe Benefit Information": [
+      {
+        "ECode": "STD",
+        "CalcCode": "",
+        "Rate Code": "",
+        "Rate": "0.00",
+        "Rate Per": "",
+        "Amount": "9.50",
+        "Tabled?": "No",
+        "Units": "0.00",
+        "Frequency": "ML",
+        "Goal/Paid/Goal Bal.": "0.00/0.00/0.00",
+        "Min/Max/Ann. Max": "0.00/0.00/0.00",
+        "Effective Dates": "08/30/2024 to 12/31/2100"
+      }
+    ],
+    "Benefit Accrual Information": [
+      {
+        "BCode": "ESST",
+        "Rate": "0.00",
+        "Amount": "0.00",
+        "Hours": "0.00",
+        "Max/Carryover Max": "0.00/0.00",
+        "Length of Service": "",
+        "Hours: Used/Avail/Total/Prob": "0.00/14.11/0.00/0.00",
+        "Dollars: Used/Avail/Total/Prob": "0.00/257.31/0.00/0.00",
+        "Effective Dates": "01/01/2024 to 06/01/2024"
+      },
+      {
+        "BCode": "PTO1",
+        "Rate": "0.00",
+        "Amount": "0.00",
+        "Hours": "0.00",
+        "Max/Carryover Max": "0.00/0.00",
+        "Length of Service": "",
+        "Hours: Used/Avail/Total/Prob": "23.00/39.36/0.00/0.00",
+        "Dollars: Used/Avail/Total/Prob": "437.00/747.84/0.00/0.00",
+        "Effective Dates": "06/02/2024 to 12/31/2100"
+      },
+      {
+        "BCode": "PTO2",
+        "Rate": "0.00",
+        "Amount": "0.00",
+        "Hours": "0.00",
+        "Max/Carryover Max": "0.00/0.00",
+        "Length of Service": "",
+        "Hours: Used/Avail/Total/Prob": "0.00/38.31/0.00/0.00",
+        "Dollars: Used/Avail/Total/Prob": "0.00/689.58/0.00/0.00",
+        "Effective Dates": "04/19/2023 to 09/09/2023"
+      }
+    ],
+    "Review Information": [],
+    "Emergency Contact Information": []
+  }
+}
