@@ -11,7 +11,7 @@ human_reviewed_schema = \
   'Zip',
   'Emp Id',
   'SSN',
-  'DOB',
+  'DOB (only date)',
   'Gender',
   'Marital Status',
   'Status',
@@ -72,13 +72,13 @@ human_reviewed_schema = \
    'Salary',  
    'Effective Dates'],
   'Tax Information (Employee)': [
-   'Employee Tax (code + description)',
+   'Employee Tax (code description)',
    'Status',
    "Add'l Amount",
    'Effective Dates',
    'Default'],
   'Tax Information (Employer)': [
-   'Employer Tax (code + description)',
+   'Employer Tax (code description)',
    'Effective Dates',
    'Default'],
   'Deduction Information': [
@@ -161,7 +161,7 @@ Instructions:
 - Secondly it can happen that some text is partially visible or hidden or overlapped in image, for that parse the text from FULL_RAW_TEXT.
 - Extract all form field values and table data as specified in the schema.
 
-Respond only in JSON format with extracted data (no prose):
+Respond only in JSON format with extracted data (no prose or explanations):
 {{
  "Form_fields": {{
    "field1": "value1",
@@ -176,8 +176,8 @@ Respond only in JSON format with extracted data (no prose):
  }}
 }}""",
     'system_prompt': "You are a Document data extraction expert",
-    'model': "gpt-5-mini",
-    'reasoning_effort': 'medium'
+    'model': "gpt-5",
+    'reasoning_effort': 'low'
 }
 
 judge = {
@@ -196,7 +196,7 @@ DATA_PART_INSTRUCTIONS
 
 if a element is correct then return empty "feedback".
 
-Respond only in below format (no prose):
+Respond only in below format (no prose or explanations):
 OUTPUT_FORMAT
 ''',
     'system_prompt': "You are a strict data validation expert",
@@ -254,7 +254,7 @@ FEEDBACK
 - if any form field key or table not present in image just leave its value blank in output.
 - for tables never change column header names while correction.
 
-Respond only in below format (no prose):
+Respond only in below format (no prose or explanations):
 OUTPUT_FORMAT
 ''',
     'system_prompt': "You are a Document data extraction expert who focuses on feedback and improves the extraction based on it.",
@@ -289,7 +289,7 @@ Pitfalls to look out for:
 
 - if some columns or cells values appear be merged in markdown then in that case fall back to image .
 
-Response format (no prose): 
+Response format (no prose or explanations): 
 if table data present: Markdown table with requested table column header and each cells is either filled with 'X' or is blank.
 else: return ''
 '''
@@ -311,7 +311,7 @@ I've attached the OCR content of this page with name OCR_COORDINATES.
 Task: 
 - filter line elements in OCR content that are related to the concerned table (table name if present + table column header + data rows).
 
-Resonse format (no prose): return only the filtered table related elements including content and polygon fields as is.
+Resonse format (no prose or explanations): return only the filtered table related elements including content and polygon fields as is.
 '''
 }
 
@@ -323,17 +323,56 @@ coordinate_based_empty_cell_finder = {
 OCR Content related to table with bounding box co-ordinates:
 OCR_CONTENT
 
-'polygon' contains co-ordinates of four corners, [ x1,y1, x2,y2, x3,y3, x4,y4]
+- 'polygon' contains co-ordinates of four corners, [x1,y1, x2,y2, x3,y3, x4,y4]
+- x is horizontal axis and y is vertical axis
+- x1,y1 is top-left, x2,y2 is top-right, x3,y3 is bottom-right, x4,y4 is bottom-left corners
 
 Table Name: TABLE_NAME
 Column header: COLUMN_HEADERS
 
 Task: now based on co-ordinates find what all cells are empty, mark the non empty cells with X and leave empty ones blank
 
-Hints:
-- elements with near y co-ordinates fall in same line
-- in a line a cell's x co-ordinates must overlap beyond a certain threshold with any one of column's x co-ordinates for it to be non empty else its empty
+Steps to follow:
+- if a user provided column name have multiple words and those are present in OCR content as separate word contents group them 
+- when grouped as instructed in step 1 pick x1,y1, x4,y4 of first/left most word and x2,y2, x3,y3 of last/right most word to make a single column element polygon
+- repeat above 2 steps for all column headers to get their polygons
+- for tabular data elements with near y co-ordinates fall in same line
+- in a row/line a cell's x co-ordinates (x1,x2 or x3,x4) must overlap beyond a certain threshold with any one of column's x co-ordinates (x1,x2 or x3,x4) for it to be non empty else its empty
 
-Response format (no prose): respond only in markdown table with COLUMN_HEADERS as column header and each cell is either filled with X or is blank.
+example 1:
+|x1<----column---->x2|
+|x1<----cell---->x2|
+this column cell is non empty
+
+response:
+|column|
+|   X  |
+
+example 2:
+|x1<----column---->x2| 
+-----------------------|x1<----cell---->x2|  
+or
+|x1<----column---->x2| 
+--------------------|x1<----cell---->x2|  
+this column cell is empty, even if cell overlaps but its very small overlap with column
+
+response:
+|column|
+|      |
+
+example 3:
+|x1<----column1---->x2| |x1<----column2---->x2|
+|x1<----cell---->x2|-----|x1<----cell---->x2|
+-------------------------|x1<----cell---->x2|
+|x1<------------------cell--------------->x2|
+one cell is spanning two columns significantly, so both columns are non empty, happens when cell text is overflowing into adjacent cell
+
+response:
+|column1|column2|
+|   X   |   X   |
+|       |   X   |
+|   X   |   X   |
+
+Response format (no prose or explanations): respond only in markdown table with COLUMN_HEADERS as column header and each cell is either filled with X or is blank.
 '''
 }
