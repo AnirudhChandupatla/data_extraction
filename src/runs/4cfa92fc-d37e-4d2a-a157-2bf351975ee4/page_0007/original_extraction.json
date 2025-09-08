@@ -1,0 +1,183 @@
+{
+  "Form_fields": {
+    "Company Name": "Velorynt Labs",
+    "Company Code": "37546",
+    "Period": "12/17/2024 to 12/26/2024",
+    "Employee Name": "Joel Dorsey",
+    "Address line 1": "1420 Brookview Lane",
+    "City": "Clarkville",
+    "State": "MA",
+    "Zip": "76911",
+    "Emp Id": "1121",
+    "SSN": "808-03-9317",
+    "DOB": "04/25/1980",
+    "Gender": "M",
+    "Marital Status": "S",
+    "Status": "T",
+    "Position": "",
+    "Title": "",
+    "Pay Group": "",
+    "Job Code": "",
+    "Emp Type": "",
+    "Statutory": "0.00",
+    "Seasonal": "0.00",
+    "Domestic Emp": "No",
+    "Probation": "0.00",
+    "Home #": "7548815882",
+    "Work #": "",
+    "Ext.": "",
+    "Email": "",
+    "Mail Stop": "",
+    "Hire Date": "07/27/2023",
+    "Rehire Date": "",
+    "Term Date": "09/01/2023",
+    "Term Reason": "N/A",
+    "Adj Sen Date": "",
+    "Pension": "No",
+    "Visa Type": "",
+    "Exp": "",
+    "Citizen": "",
+    "I9 Reverify": "No",
+    "I9 Verified": "No",
+    "Deceased": "No",
+    "Tax Form": "W2",
+    "WCC": "8810",
+    "EEOC": "",
+    "Supervisor ID": "",
+    "Name (supervisor name)": "",
+    "Def Comp": "No",
+    "Union": "",
+    "Union Date": "",
+    "Collect Dues": "No",
+    "Paid Init. Fees": "No",
+    "Veteran": "",
+    "Legal Rep": "No",
+    "Nickname": "surname",
+    "surname": "surname",
+    "Prior Last": "",
+    "Disability": "",
+    "Smoker": "No",
+    "AutoPay": "No",
+    "Pay Frequency": "B",
+    "OT Exempt": "No",
+    "Default Hours": "0.00",
+    "Locations": "606",
+    "Positions": "700"
+  },
+  "Tables": {
+    "Rate/Salary Information": [
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "18.00",
+        "Salary": "",
+        "Effective Dates": "08/04/2023 to 12/31/2100"
+      }
+    ],
+    "Tax Information (Employee)": [
+      {
+        "Employee Tax (code + description)": "MED - Medicare",
+        "Status": "",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "08/04/2023 to 12/31/2100",
+        "Default": "Yes"
+      },
+      {
+        "Employee Tax (code + description)": "SS - OASDI",
+        "Status": "",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "08/04/2023 to 12/31/2100",
+        "Default": "Yes"
+      },
+      {
+        "Employee Tax (code + description)": "FITW - Federal Income Tax",
+        "Status": "S-0",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "08/04/2023 to 12/31/2100",
+        "Default": "Yes"
+      },
+      {
+        "Employee Tax (code + description)": "MN - Minnesota SITW",
+        "Status": "S-1",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "07/31/2023 to 12/31/2100",
+        "Default": "Yes"
+      }
+    ],
+    "Tax Information (Employer)": [
+      {
+        "Employer Tax (code + description)": "MED-R - Medicare - Employer",
+        "Effective Dates": "08/04/2023 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code + description)": "SS-R - OASDI - Employer",
+        "Effective Dates": "08/04/2023 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code + description)": "FUTA - Fed Unemployment",
+        "Effective Dates": "08/04/2023 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code + description)": "MNAST - Minnesota Federal Loan Assessment",
+        "Effective Dates": "08/04/2023 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code + description)": "MNDW - Workforce Enhancement Fee",
+        "Effective Dates": "08/04/2023 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code + description)": "MNSUI - Minnesota SUI",
+        "Effective Dates": "08/04/2023 to 12/31/2100",
+        "Default": ""
+      }
+    ],
+    "Deduction Information": [],
+    "Direct Deposit Information": [
+      {
+        "Sequence No.": "99.00",
+        "Transit No.": "296076301",
+        "Account No.": "5589890010",
+        "Checking?": "Yes",
+        "Account Name": "Joel Dorsey",
+        "Amount Code": "%",
+        "Amount": "100.00",
+        "Prenote Date": "07/31/2023",
+        "Effective Dates": "07/31/2023 to 12/31/2100",
+        "Exclude Special": "No"
+      }
+    ],
+    "Fringe Benefit Information": [],
+    "Benefit Accrual Information": [
+      {
+        "BCode": "PTO1",
+        "Rate": "0.00",
+        "Amount": "0.00",
+        "Hours": "0.00",
+        "Max/Carryover Max": "0.00/0.00",
+        "Length of Service": "",
+        "Hours: Used/Avail/Total/Prob": "0.00/0.00/0.00/13.86",
+        "Dollars: Used/Avail/Total/Prob": "0.00/0.00/0.00/249.48",
+        "Effective Dates": "07/27/2023 to 12/31/2100"
+      }
+    ],
+    "Review Information": [],
+    "Emergency Contact Information": [
+      {
+        "Name": "Michel Richard",
+        "Relationship": "",
+        "Home Phone": "667-577-7708",
+        "Work Phone": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "Zip": "",
+        "Country": ""
+      }
+    ]
+  }
+}
