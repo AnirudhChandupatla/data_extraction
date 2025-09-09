@@ -1,0 +1,115 @@
+{
+  "Form_fields": {
+    "Name (Preferred Name)": "Natalie, Bowers",
+    "Employee ID / Clock ID": "658471",
+    "Address Line 1": "4127 Pine Cone Ter",
+    "Address Line 2": "",
+    "City, State Zip": "Portland OR 97211",
+    "Country": "United States",
+    "Work Phone": "",
+    "Extension": "",
+    "Home Phone": "(503) 555-1194",
+    "Cell Phone": "",
+    "Social Security Number": "586-41-3725",
+    "Birth Date": "08/29/1993",
+    "Work E-mail": "natalie.bowers@proton.com",
+    "Personal E-mail": "",
+    "Work State": "California",
+    "Officer Type": "",
+    "Class Code": "4511",
+    "Waive Code": ""
+  },
+  "Tables": {
+    "Employment": [
+      {
+        "Hire Date": "01/29/07",
+        "Type": "Full Time",
+        "Status": "Active",
+        "As Of": "06/30/17",
+        "Reason": "Hired",
+        "Statutory Employee": "No",
+        "Eligible For Retirement Plan": "No",
+        "Organization": "10 MC-Milpitas",
+        "Location": "Default Location",
+        "Position": "Test Technician"
+      }
+    ],
+    "Tax Withholdings (Federal Taxes)": [
+      {
+        "Name": "Employee Social Security Tax",
+        "Taxability": "Taxable",
+        "Residency": "Resident",
+        "Filing Status": "",
+        "Allowances (coma separated values possible)": "",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "",
+        "% of Earnings Taxed (Local)": ""
+      },
+      {
+        "Name": "Employee Medicare Tax",
+        "Taxability": "Taxable",
+        "Residency": "Resident",
+        "Filing Status": "",
+        "Allowances (coma separated values possible)": "",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "",
+        "% of Earnings Taxed (Local)": ""
+      },
+      {
+        "Name": "Federal Income Tax",
+        "Taxability": "Withhold",
+        "Residency": "Resident",
+        "Filing Status": "Single",
+        "Allowances (coma separated values possible)": "0",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "",
+        "% of Earnings Taxed (Local)": ""
+      }
+    ],
+    "Tax Withholdings (State Taxes)": [
+      {
+        "Name": "California Income Tax",
+        "Taxability": "Withhold",
+        "Residency": "Resident",
+        "Filing Status": "Single",
+        "Allowances (coma separated values possible)": "0, 0",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "100 %",
+        "% of Earnings Taxed (Local)": ""
+      },
+      {
+        "Name": "California Disability Insurance",
+        "Taxability": "Taxable",
+        "Residency": "Resident",
+        "Filing Status": "",
+        "Allowances (coma separated values possible)": "",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "",
+        "% of Earnings Taxed (Local)": ""
+      }
+    ],
+    "Compensation": [
+      {
+        "Rate / Salary": "Rate 1: $19.5600/hour",
+        "Description": "",
+        "Hours": "80.00",
+        "Frequency": "Bi-weekly",
+        "Overtime Hours": "0.00",
+        "Overtime Factor": "0.00",
+        "Exempt": "No"
+      }
+    ],
+    "Direct Deposit": [
+      {
+        "Used For": "Net Pay",
+        "Routing & Transit Number": "121000358",
+        "Bank Name": "BANK OF AMERICA, NA",
+        "Account Number": "4185709326",
+        "Account Type": "Checking",
+        "Calculation Method": "Percentage",
+        "Amount or %": "100 %"
+      }
+    ],
+    "Earnings & Deductions": []
+  }
+}

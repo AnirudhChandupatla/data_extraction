@@ -1,0 +1,103 @@
+{
+  "Form_fields": {
+    "Name (Preferred Name)": "",
+    "Employee ID / Clock ID": "",
+    "Address Line 1": "",
+    "Address Line 2": "",
+    "City, State Zip": "",
+    "Country": "",
+    "Work Phone": "",
+    "Extension": "",
+    "Home Phone": "",
+    "Cell Phone": "",
+    "Social Security Number": "",
+    "Birth Date": "",
+    "Work E-mail": "",
+    "Personal E-mail": "",
+    "Work State": "",
+    "Officer Type": "",
+    "Class Code": "",
+    "Waive Code": ""
+  },
+  "Tables": {
+    "Employment": [],
+    "Tax Withholdings (Federal Taxes)": [],
+    "Tax Withholdings (State Taxes)": [],
+    "Compensation": [],
+    "Direct Deposit": [],
+    "Earnings & Deductions": [
+      {
+        "(E or D) Name": "(E) 401k ER Match",
+        "Calculation Type (for each cell - capture all text along this column until next Name row)": "Standard Match",
+        "Amount": "$0.00",
+        "Frequency": "Pay per period",
+        "Effect on Pay": "Adds to pay for tax calculation",
+        "Check Limit": "",
+        "Bank Account": ""
+      },
+      {
+        "(E or D) Name": "(E) Bonus",
+        "Calculation Type (for each cell - capture all text along this column until next Name row)": "Flat dollar amount",
+        "Amount": "$0.00",
+        "Frequency": "Pay per period",
+        "Effect on Pay": "Adds to pay",
+        "Check Limit": "",
+        "Bank Account": ""
+      },
+      {
+        "(E or D) Name": "(E) Group Term Life",
+        "Calculation Type (for each cell - capture all text along this column until next Name row)": "Value of excess group term life insurance Policy Amount: $120,000.00 Birth Date: 09/17/1988",
+        "Amount": "$0.00",
+        "Frequency": "Pay per period",
+        "Effect on Pay": "Adds to pay for tax calculation",
+        "Check Limit": "",
+        "Bank Account": ""
+      },
+      {
+        "(E or D) Name": "(D) 401k",
+        "Calculation Type (for each cell - capture all text along this column until next Name row)": "Percentage",
+        "Amount": "0.0000%",
+        "Frequency": "Pay per period",
+        "Effect on Pay": "Reduces pay",
+        "Check Limit": "",
+        "Bank Account": ""
+      },
+      {
+        "(E or D) Name": "(D) 401k EE Pretax",
+        "Calculation Type (for each cell - capture all text along this column until next Name row)": "Percentage",
+        "Amount": "15.0000%",
+        "Frequency": "Pay per period",
+        "Effect on Pay": "Reduces pay",
+        "Check Limit": "",
+        "Bank Account": ""
+      },
+      {
+        "(E or D) Name": "(D) 401k Loan",
+        "Calculation Type (for each cell - capture all text along this column until next Name row)": "Flat dollar amount",
+        "Amount": "$132.66",
+        "Frequency": "Pay per period",
+        "Effect on Pay": "Reduces pay",
+        "Check Limit": "Stop when an amount is reached. $4,642.96.",
+        "Bank Account": ""
+      },
+      {
+        "(E or D) Name": "(D) Cost of Healthcare",
+        "Calculation Type (for each cell - capture all text along this column until next Name row)": "Flat dollar amount",
+        "Amount": "$632.88",
+        "Frequency": "Pay per period",
+        "Effect on Pay": "No effect on pay",
+        "Check Limit": "",
+        "Bank Account": ""
+      },
+      {
+        "(E or D) Name": "(D) Life Ins Post Tax",
+        "Calculation Type (for each cell - capture all text along this column until next Name row)": "Flat dollar amount",
+        "Amount": "$6.92",
+        "Frequency": "Pay per period",
+        "Effect on Pay": "Reduces pay",
+        "Check Limit": "",
+        "Bank Account": ""
+      }
+    ]
+  }
+}

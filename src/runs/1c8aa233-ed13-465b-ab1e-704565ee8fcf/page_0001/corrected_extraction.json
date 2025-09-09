@@ -1,0 +1,115 @@
+{
+  "Form_fields": {
+    "Name (Preferred Name)": "Olivia Turner",
+    "Employee ID / Clock ID": "731042",
+    "Address Line 1": "4827 Maple Ridge Dr",
+    "Address Line 2": "",
+    "City, State Zip": "Austin TX 78727",
+    "Country": "United States",
+    "Work Phone": "",
+    "Extension": "",
+    "Home Phone": "",
+    "Cell Phone": "",
+    "Social Security Number": "562-55-0194",
+    "Birth Date": "07/14/1989",
+    "Work E-mail": "olivia.turner@proton.com",
+    "Personal E-mail": "",
+    "Work State": "California",
+    "Officer Type": "",
+    "Class Code": "4511",
+    "Waive Code": ""
+  },
+  "Tables": {
+    "Employment": [
+      {
+        "Hire Date": "07/23/01",
+        "Type": "Full Time",
+        "Status": "Active",
+        "As Of": "06/30/17",
+        "Reason": "Hired",
+        "Statutory Employee": "No",
+        "Eligible For Retirement Plan": "No",
+        "Organization": "15 Project Management",
+        "Location": "Default Location",
+        "Position": "Pm Manager"
+      }
+    ],
+    "Tax Withholdings (Federal Taxes)": [
+      {
+        "Name": "Employee Social Security Tax",
+        "Taxability": "Taxable",
+        "Residency": "Resident",
+        "Filing Status": "",
+        "Allowances (coma separated values possible)": "",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "",
+        "% of Earnings Taxed (Local)": ""
+      },
+      {
+        "Name": "Employee Medicare Tax",
+        "Taxability": "Taxable",
+        "Residency": "Resident",
+        "Filing Status": "",
+        "Allowances (coma separated values possible)": "",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "",
+        "% of Earnings Taxed (Local)": ""
+      },
+      {
+        "Name": "Federal Income Tax",
+        "Taxability": "Withhold",
+        "Residency": "Resident",
+        "Filing Status": "Single",
+        "Allowances (coma separated values possible)": "8",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "",
+        "% of Earnings Taxed (Local)": ""
+      }
+    ],
+    "Tax Withholdings (State Taxes)": [
+      {
+        "Name": "California Income Tax",
+        "Taxability": "Withhold",
+        "Residency": "Resident",
+        "Filing Status": "Head of Household",
+        "Allowances (coma separated values possible)": "0, 8",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "100 %",
+        "% of Earnings Taxed (Local)": ""
+      },
+      {
+        "Name": "California Disability Insurance",
+        "Taxability": "Taxable",
+        "Residency": "Resident",
+        "Filing Status": "",
+        "Allowances (coma separated values possible)": "",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "",
+        "% of Earnings Taxed (Local)": ""
+      }
+    ],
+    "Compensation": [
+      {
+        "Rate / Salary": "Salary: $5,194.55/Pay Period",
+        "Description": "",
+        "Hours": "80.00",
+        "Frequency": "Bi-weekly",
+        "Overtime Hours": "0.00",
+        "Overtime Factor": "0.00",
+        "Exempt": "Yes"
+      }
+    ],
+    "Direct Deposit": [
+      {
+        "Used For": "Net Pay",
+        "Routing & Transit Number": "121000358",
+        "Bank Name": "BANK OF AMERICA, NA",
+        "Account Number": "4587231549",
+        "Account Type": "Checking",
+        "Calculation Method": "Percentage",
+        "Amount or %": "100 %"
+      }
+    ],
+    "Earnings & Deductions": []
+  }
+}

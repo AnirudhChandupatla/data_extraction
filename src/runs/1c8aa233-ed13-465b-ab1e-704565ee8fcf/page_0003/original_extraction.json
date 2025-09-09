@@ -1,0 +1,115 @@
+{
+  "Form_fields": {
+    "Name (Preferred Name)": "Marcus, Delgado",
+    "Employee ID / Clock ID": "584219",
+    "Address Line 1": "9173 Oak Hollow Ct",
+    "Address Line 2": "",
+    "City, State Zip": "Denver CO 80211",
+    "Country": "United States",
+    "Work Phone": "",
+    "Extension": "",
+    "Home Phone": "",
+    "Cell Phone": "",
+    "Social Security Number": "579-42-6813",
+    "Birth Date": "03/09/1987",
+    "Work E-mail": "marcus.delgado@proton.com",
+    "Personal E-mail": "",
+    "Work State": "California",
+    "Officer Type": "",
+    "Class Code": "4511",
+    "Waive Code": ""
+  },
+  "Tables": {
+    "Employment": [
+      {
+        "Hire Date": "06/15/01",
+        "Type": "Full Time",
+        "Status": "Active",
+        "As Of": "06/30/17",
+        "Reason": "Hired",
+        "Statutory Employee": "No",
+        "Eligible For Retirement Plan": "No",
+        "Organization": "10 MC-Milpitas",
+        "Location": "Default Location",
+        "Position": "Mobile Communications Manager"
+      }
+    ],
+    "Tax Withholdings (Federal Taxes)": [
+      {
+        "Name": "Employee Social Security Tax",
+        "Taxability": "Taxable",
+        "Residency": "Resident",
+        "Filing Status": "",
+        "Allowances (coma separated values possible)": "",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "",
+        "% of Earnings Taxed (Local)": ""
+      },
+      {
+        "Name": "Employee Medicare Tax",
+        "Taxability": "Taxable",
+        "Residency": "Resident",
+        "Filing Status": "",
+        "Allowances (coma separated values possible)": "",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "",
+        "% of Earnings Taxed (Local)": ""
+      },
+      {
+        "Name": "Federal Income Tax",
+        "Taxability": "Withhold",
+        "Residency": "Resident",
+        "Filing Status": "Single",
+        "Allowances (coma separated values possible)": "1",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "",
+        "% of Earnings Taxed (Local)": ""
+      }
+    ],
+    "Tax Withholdings (State Taxes)": [
+      {
+        "Name": "California Income Tax",
+        "Taxability": "Withhold",
+        "Residency": "Resident",
+        "Filing Status": "Single",
+        "Allowances (coma separated values possible)": "0 , 1",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "100 %",
+        "% of Earnings Taxed (Local)": ""
+      },
+      {
+        "Name": "California Disability Insurance",
+        "Taxability": "Taxable",
+        "Residency": "Resident",
+        "Filing Status": "",
+        "Allowances (coma separated values possible)": "",
+        "Additional / Override Amount": "",
+        "% of Time Worked (State)": "",
+        "% of Earnings Taxed (Local)": ""
+      }
+    ],
+    "Compensation": [
+      {
+        "Rate / Salary": "Salary: $5,117.75/Pay Period",
+        "Description": "",
+        "Hours": "80.00",
+        "Frequency": "Bi-weekly",
+        "Overtime Hours": "0.00",
+        "Overtime Factor": "0.00",
+        "Exempt": "Yes"
+      }
+    ],
+    "Direct Deposit": [
+      {
+        "Used For": "Net Pay",
+        "Routing & Transit Number": "121000358",
+        "Bank Name": "BANK OF AMERICA, NA",
+        "Account Number": "8406759314",
+        "Account Type": "Checking",
+        "Calculation Method": "Percentage",
+        "Amount or %": "100 %"
+      }
+    ],
+    "Earnings & Deductions": []
+  }
+}
