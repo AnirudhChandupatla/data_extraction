@@ -1,0 +1,266 @@
+{
+  "Form_fields": {
+    "Company Name": "Velorynt Labs",
+    "Company Code": "37546",
+    "Period": "12/17/2024 to 12/26/2024",
+    "Employee Name": "Patricia Paul",
+    "Address line 1": "515 Brittany Forks",
+    "City": "Savannah",
+    "State": "GA",
+    "Zip": "59966",
+    "Emp Id": "3602",
+    "SSN": "145-16-8120",
+    "DOB (only date)": "11/26/1967",
+    "Gender": "F",
+    "Marital Status": "S",
+    "Status": "T",
+    "Position": "",
+    "Title": "",
+    "Pay Group": "",
+    "Job Code": "",
+    "Emp Type": "RPT",
+    "Statutory": "0.00",
+    "Seasonal": "0.00",
+    "Domestic Emp": "No",
+    "Probation": "0.00",
+    "Home #": "",
+    "Work #": "",
+    "Ext.": "",
+    "Email": "xhines@yahoo.com",
+    "Mail Stop": "",
+    "Hire Date": "06/07/2017",
+    "Rehire Date": "",
+    "Term Date": "12/21/2020",
+    "Term Reason": "N/A",
+    "Adj Sen Date": "",
+    "Pension": "No",
+    "Visa Type": "",
+    "Exp": "",
+    "Citizen": "",
+    "I9 Reverify": "",
+    "I9 Verified": "Yes",
+    "Deceased": "No",
+    "Tax Form": "W2",
+    "WCC": "8810",
+    "EEOC": "",
+    "Supervisor ID": "",
+    "Name (supervisor name)": "",
+    "Def Comp": "No",
+    "Union": "",
+    "Union Date": "",
+    "Collect Dues": "No",
+    "Paid Init. Fees": "No",
+    "Veteran": "",
+    "Legal Rep": "No",
+    "Nickname": "",
+    "surname": "",
+    "Prior Last": "",
+    "Disability": "",
+    "Smoker": "No",
+    "AutoPay": "No AutoPay Information",
+    "Pay Frequency": "B",
+    "OT Exempt": "No",
+    "Default Hours": "0.00",
+    "Locations": "606",
+    "Positions": "700"
+  },
+  "Tables": {
+    "Rate/Salary Information": [
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "13.25",
+        "Salary": "",
+        "Effective Dates": "11/25/2018 to 12/31/2100"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "13.00",
+        "Salary": "",
+        "Effective Dates": "08/07/2017 to 11/24/2018"
+      },
+      {
+        "RateCode": "Base",
+        "Description": "Base Rate",
+        "Rate": "12.00",
+        "Salary": "",
+        "Effective Dates": "06/16/2017 to 08/06/2017"
+      }
+    ],
+    "Tax Information (Employee)": [
+      {
+        "Employee Tax (code description)": "MED Medicare",
+        "Status": "",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "06/16/2017 to 12/31/2100",
+        "Default": "Yes"
+      },
+      {
+        "Employee Tax (code description)": "SS OASDI",
+        "Status": "",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "06/16/2017 to 12/31/2100",
+        "Default": "Yes"
+      },
+      {
+        "Employee Tax (code description)": "FITW Federal Income Tax",
+        "Status": "S-1",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "06/16/2017 to 12/31/2100",
+        "Default": "Yes"
+      },
+      {
+        "Employee Tax (code description)": "MN Minnesota SITW",
+        "Status": "S-1",
+        "Add'l Amount": "0.00",
+        "Effective Dates": "06/16/2017 to 12/31/2100",
+        "Default": "Yes"
+      }
+    ],
+    "Tax Information (Employer)": [
+      {
+        "Employer Tax (code description)": "MED-R Medicare - Employer",
+        "Effective Dates": "06/16/2017 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "SS-R OASDI - Employer",
+        "Effective Dates": "06/16/2017 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "FUTA Fed Unemployment",
+        "Effective Dates": "06/16/2017 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "MNAST Minnesota Federal Loan Assessment",
+        "Effective Dates": "06/16/2017 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "MNDW Workforce Enhancement Fee",
+        "Effective Dates": "06/16/2017 to 12/31/2100",
+        "Default": ""
+      },
+      {
+        "Employer Tax (code description)": "MNSUI Minnesota SUI",
+        "Effective Dates": "06/16/2017 to 12/31/2100",
+        "Default": ""
+      }
+    ],
+    "Deduction Information": [
+      {
+        "Code": "401KC",
+        "Deduction": "401K Contribution",
+        "Rate": "1.00",
+        "CalcCode": "%401K",
+        "Frequency": "",
+        "Goal/Paid": "0.00/0.00",
+        "Min/Max/Annual Max": "0.00/0.00/0.00",
+        "Arrears": "0.00",
+        "Agency": "",
+        "Effective Dates": "09/08/2017 to 04/14/2019"
+      },
+      {
+        "Code": "DNTL",
+        "Deduction": "Dental Insurance S125",
+        "Rate": "15.10",
+        "CalcCode": "B5",
+        "Frequency": "",
+        "Goal/Paid": "0.00/0.00",
+        "Min/Max/Annual Max": "0.00/0.00/0.00",
+        "Arrears": "0.00",
+        "Agency": "",
+        "Effective Dates": "09/01/2017 to 04/14/2019"
+      },
+      {
+        "Code": "FH125",
+        "Deduction": "Health Insurance S125",
+        "Rate": "78.90",
+        "CalcCode": "B5",
+        "Frequency": "",
+        "Goal/Paid": "0.00/0.00",
+        "Min/Max/Annual Max": "0.00/0.00/0.00",
+        "Arrears": "0.00",
+        "Agency": "",
+        "Effective Dates": "09/01/2017 to 04/14/2019"
+      }
+    ],
+    "Direct Deposit Information": [
+      {
+        "Sequence No.": "99.00",
+        "Transit No.": "291070001",
+        "Account No.": "8224461774",
+        "Checking?": "Yes",
+        "Account Name": "Patricia, Paul",
+        "Amount Code": "%",
+        "Amount": "100.00",
+        "Prenote Date": "06/30/2017",
+        "Effective Dates": "06/30/2017 to 12/31/2100",
+        "Exclude Special": "No"
+      }
+    ],
+    "Fringe Benefit Information": [],
+    "Benefit Accrual Information": [
+      {
+        "BCode": "PER",
+        "Rate": "0.00",
+        "Amount": "0.00",
+        "Hours": "0.00",
+        "Max/Carryover Max": "0.00/0.00",
+        "Length of Service": "",
+        "Hours: Used/Avail/Total/Prob": "14.00/0.00/0.00/0.00",
+        "Dollars: Used/Avail/Total/Prob": "185.50/0.00/0.00/0.00",
+        "Effective Dates": "09/01/2017 to 04/13/2019"
+      },
+      {
+        "BCode": "SICK",
+        "Rate": "0.00",
+        "Amount": "0.00",
+        "Hours": "0.00",
+        "Max/Carryover Max": "0.00/0.00",
+        "Length of Service": "",
+        "Hours: Used/Avail/Total/Prob": "35.00/0.00/0.00/0.00",
+        "Dollars: Used/Avail/Total/Prob": "318.00/145.75/0.00/0.00",
+        "Effective Dates": "09/01/2017 to 04/13/2019"
+      },
+      {
+        "BCode": "VAC-NEX7",
+        "Rate": "0.00",
+        "Amount": "0.00",
+        "Hours": "0.00",
+        "Max/Carryover Max": "0.00/0.00",
+        "Length of Service": "",
+        "Hours: Used/Avail/Total/Prob": "18.83/0.00/0.00/0.00",
+        "Dollars: Used/Avail/Total/Prob": "0.00/249.50/0.00/0.00",
+        "Effective Dates": "10/05/2018 to 04/13/2019"
+      },
+      {
+        "BCode": "VAC-NEX8",
+        "Rate": "0.00",
+        "Amount": "0.00",
+        "Hours": "0.00",
+        "Max/Carryover Max": "0.00/0.00",
+        "Length of Service": "",
+        "Hours: Used/Avail/Total/Prob": "0.00/0.00/0.00/0.00",
+        "Dollars: Used/Avail/Total/Prob": "481.00/40.04/0.00/0.00",
+        "Effective Dates": "09/22/2017 to 10/05/2018"
+      },
+      {
+        "BCode": "VAC/CO",
+        "Rate": "0.00",
+        "Amount": "0.00",
+        "Hours": "0.00",
+        "Max/Carryover Max": "0.00/0.00",
+        "Length of Service": "",
+        "Hours: Used/Avail/Total/Prob": "0.96/0.00/0.00/0.00",
+        "Dollars: Used/Avail/Total/Prob": "0.00/12.72/0.00/0.00",
+        "Effective Dates": "01/01/2018 to 04/13/2019"
+      }
+    ],
+    "Review Information": [],
+    "Emergency Contact Information": []
+  }
+}
