@@ -1,4 +1,4 @@
-human_reviewed_schema = \
+millenium_profile_schema = \
 {
  'Form_fields': [
   'Company Name',
@@ -149,7 +149,91 @@ human_reviewed_schema = \
   }
 }
 
-
+paychex_profile_schema = {
+  "Form_fields": [
+    "Name (Preferred Name)",
+    "Employee ID / Clock ID",
+    "Address Line 1",
+    "Address Line 2",
+    "City, State Zip",
+    "Country",
+    "Work Phone",
+    "Extension",
+    "Home Phone",
+    "Cell Phone",
+    "Social Security Number",
+    "Birth Date",
+    "Work E-mail",
+    "Personal E-mail",
+    "Work State",
+    "Officer Type",
+    "Class Code",
+    "Waive Code"
+  ],
+  "Tables": {
+    "Employment": [
+      "Hire Date",
+      "Type",
+      "Status",
+      "As Of",
+      "Reason",
+      "Statutory Employee",
+      "Eligible For Retirement Plan",
+      "Organization",
+      "Location",
+      "Position"
+    ],
+    "Tax Withholdings (Federal Taxes)": [
+      "Name",
+      "Taxability",
+      "Residency",
+      "Filing Status",
+      "Allowances (coma separated values possible)",
+      "Additional / Override Amount",
+      "% of Time Worked (State)",
+      "% of Earnings Taxed (Local)"
+    ],
+    "Tax Withholdings (State Taxes)": [
+      "Name",
+      "Taxability",
+      "Residency",
+      "Filing Status",
+      "Allowances (coma separated values possible)",
+      "Additional / Override Amount",
+      "% of Time Worked (State)",
+      "% of Earnings Taxed (Local)"
+    ],
+    "Compensation": [
+      "Rate / Salary",
+      "Description",
+      "Hours",
+      "Frequency",
+      "Overtime Hours",
+      "Overtime Factor",
+      "Exempt"
+    ],
+    "Direct Deposit": [
+      "Used For",
+      "Routing & Transit Number",
+      "Bank Name",
+      "Account Number",
+      "Account Type",
+      "Calculation Method",
+      "Amount or %"
+    ],
+    "Earnings & Deductions": [
+      "(E or D) Name",
+      "Calculation Type (for each cell - capture all text along this column until next Name row)",
+      "Amount",
+      "Frequency",
+      "Effect on Pay",
+      "Check Limit",
+      "Bank Account"
+    ]
+  }
+}
+human_reviewed_schema = paychex_profile_schema
+# Prompts for various agents
 extractor = {
     'user_prompt': f"""Extract data from this document using the following schema:
     
@@ -160,6 +244,7 @@ Instructions:
 - First locate the form field or table in image to get its position and layout.
 - Secondly it can happen that some text is partially visible or hidden or overlapped in image, for that parse the text from FULL_RAW_TEXT.
 - Extract all form field values and table data as specified in the schema.
+- In brackets beside field/column name there could be some hints or guidelines, follow them.
 
 Respond only in JSON format with extracted data (no prose or explanations):
 {{
@@ -237,7 +322,7 @@ OUTPUT_FORMAT
   - if a cell value is wrong placed in another cell.
   - judge numeric equality, not formatting: always parse values as numbers and treat them as equal if numerically identical (e.g., 0 vs 0.0, 1 vs 1.0)
 - Check if any form field values are wrongs placed in table or not.
-- Never change column header names in feedback.
+- Unless column header names doesn't match the column header names in schema (ignoring the ones in brackets), never change column header names in feedback.
 - Hints or guidelines for a specific column will be in brackets beside table column name in schema. preserve them while giving feedback. it helps while judging.'''
 }
 
@@ -336,13 +421,17 @@ Steps to follow:
 - if a user provided column name have multiple words and those are present in OCR content as separate word contents group them 
 - when grouped as instructed in step 1 pick x1,y1, x4,y4 of first/left most word and x2,y2, x3,y3 of last/right most word to make a single column element polygon
 - repeat above 2 steps for all column headers to get their polygons
-- for tabular data elements with near y co-ordinates fall in same line
+- for tabular data elements with near y co-ordinates fall in same line (tolerance 0.002)
 - in a row/line a cell's x co-ordinates (x1,x2 or x3,x4) must overlap beyond a certain threshold with any one of column's x co-ordinates (x1,x2 or x3,x4) for it to be non empty else its empty
 
 example 1:
 |x1<----column---->x2|
 |x1<----cell---->x2|
-this column cell is non empty
+or
+|x1<----column---->x2|
+--|x1<-cell->x2|------
+if cell x1 >= column x1 and cell x2 <= column x2 (with tolerence for small misalignment like 0.002)
+then this column cell is non empty
 
 response:
 |column|
@@ -354,7 +443,8 @@ example 2:
 or
 |x1<----column---->x2| 
 --------------------|x1<----cell---->x2|  
-this column cell is empty, even if cell overlaps but its very small overlap with column
+if (cell x1 < column x1 and cell x2 > column x2) or (cell x1 > column x1 and cell x2 < column x2) (with tolerence for small misalignment like 0.002)
+then this column cell is empty, even if cell overlaps but its very small overlap with column
 
 response:
 |column|
